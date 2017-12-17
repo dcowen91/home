@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 import './index.css'
 
 const TemplateWrapper = ({ children }) => (
-  <div className="container">
+  <div>
     <Helmet
       title="dcowen"
       meta={[
@@ -14,15 +14,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'dcowen homepage' },
       ]}
     />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '100px 1.0875rem 1.45rem',
-      }}
-    >
       {children()}
-    </div>
   </div>
 )
 
