@@ -625,8 +625,10 @@ pre tt:after {
 }
 
 .container {
-  background-image: url("./background.jpg");
-  height: 100vh;
+  background-image: url("./bg2.jpg");
+  height: 100%;
+  min-height: 90vh;
+  background-position: 50%;
   width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
