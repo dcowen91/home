@@ -653,7 +653,7 @@ pre tt:after {
     justify-content: center;
     margin: 0 auto;
     max-width: 960px;
-    padding: 30px 1.0875rem 1.45rem;
+    padding: 20px 1.0875rem 1.45rem;
 }
 
 .nav {
@@ -680,13 +680,29 @@ pre tt:after {
   justify-content: flex-start;
 }
 
-
-.social > svg {
+.iconContainer {
   font-size: 30px;
-  padding: 2px;
+  padding-right: 10px;
 }
 
-.social > svg:hover {
+.iconContainer:hover {
   color: #E05D44;
   cursor: pointer;
+}
+
+.bio {
+  margin: auto;
+  width: 80%;
+}
+
+.imageContainer {
+  font-size: 200px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 5%;
+  float: left;
+}
+
+.name {
+  padding-top: 15px;
 }

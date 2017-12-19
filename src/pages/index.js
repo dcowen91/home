@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
-import {FaTwitterSquare, FaGithubSquare, FaLinkedinSquare, FaEnvelopeSquare} from "react-icons/lib/fa";
+import {FaTwitterSquare, FaGithubSquare, FaLinkedinSquare, FaEnvelopeSquare, FaAdjust
+} from "react-icons/lib/fa";
 
 
 const IndexPage = () => (
@@ -21,16 +22,29 @@ const IndexPage = () => (
         <Link to="/">Blog</Link>
         <Link to="/">Project</Link>
     </div>
-    <h2>Drew Owen</h2>
-    <p>coding</p>
-    <p>sports</p>
-    <p>esports</p>
-    <p>etc</p>
-    <div className="social">
-        <FaLinkedinSquare />
-        <FaGithubSquare />
-        <FaTwitterSquare />
-        <FaEnvelopeSquare />
+    <div className="bio">
+      <div className="imageContainer"> <FaAdjust /> </div>
+      <h2 className="name">Drew Owen</h2>
+      <p>
+      I'm a Seattle based Software Engineer.
+      <br />
+      I work on cool things on the web.
+      <br />
+      I write about code, sports, esports, tech, and various what-have-you's.</p>
+      <div className="social">
+          <span className="iconContainer">
+          <FaLinkedinSquare />
+          </span>
+          <span className="iconContainer">
+          <FaGithubSquare />
+          </span>
+          <span className="iconContainer">
+          <FaTwitterSquare />
+          </span>
+          <span className="iconContainer">
+          <FaEnvelopeSquare />
+          </span>
+      </div>
     </div>
     </div>
   </div>
