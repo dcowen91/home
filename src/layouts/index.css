@@ -693,14 +693,18 @@ pre tt:after {
 .bio {
   margin: auto;
   width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .imageContainer {
+  flex: 1;
   padding-top: 25px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 5%;
-  float: left;
+}
+
+.bodyContainer {
+  flex: 1;
 }
 
 .image {

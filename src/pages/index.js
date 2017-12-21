@@ -32,28 +32,30 @@ const IndexPage = ({ data }) => (
             resolutions={data.file.childImageSharp.resolutions}
           />
         </div>
-        <h2 className="name">Drew Owen</h2>
-        <p>
-          I'm a Seattle based Software Engineer.
-          <br />
-          I work on cool things on the web.
-          <br />
-          I write about code, sports, esports, tech, and various
-          what-have-you's.
-        </p>
-        <div className="social">
-          <span className="iconContainer">
-            <FaLinkedinSquare />
-          </span>
-          <span className="iconContainer">
-            <FaGithubSquare />
-          </span>
-          <span className="iconContainer">
-            <FaTwitterSquare />
-          </span>
-          <span className="iconContainer">
-            <FaEnvelopeSquare />
-          </span>
+        <div className="bodyContainer">
+          <h2 className="name">Drew Owen</h2>
+          <p>
+            I'm a Seattle based Software Engineer.
+            <br />
+            I work on cool things on the web.
+            <br />
+            I write about code, sports, esports, tech, and various
+            what-have-you's.
+          </p>
+          <div className="social">
+            <span className="iconContainer">
+              <FaLinkedinSquare />
+            </span>
+            <span className="iconContainer">
+              <FaGithubSquare />
+            </span>
+            <span className="iconContainer">
+              <FaTwitterSquare />
+            </span>
+            <span className="iconContainer">
+              <FaEnvelopeSquare />
+            </span>
+          </div>
         </div>
       </div>
     </div>
