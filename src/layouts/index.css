@@ -701,11 +701,14 @@ pre tt:after {
 
 .imageContainer {
   flex: 1;
-  padding: 25px;
+  padding: 15px;
+  padding-top: 25px;
 }
 
 .bodyContainer {
   flex: 1;
+  padding: 15px;
+  padding-top: 0px;
 }
 
 .image {
@@ -714,4 +717,9 @@ pre tt:after {
 
 .name {
   padding-top: 15px;
+}
+
+.gatsby-image-wrapper {
+  display: block !important;
+  margin: auto;
 }
