@@ -1,13 +1,13 @@
-import React from "react"
-import Link from "gatsby-link"
-import Img from "gatsby-image"
+import React from "react";
+import Link from "gatsby-link";
+import Img from "gatsby-image";
 import {
   FaTwitterSquare,
   FaGithubSquare,
   FaLinkedinSquare,
   FaEnvelopeSquare,
-  FaAdjust,
-} from "react-icons/lib/fa"
+  FaAdjust
+} from "react-icons/lib/fa";
 
 const IndexPage = ({ data }) => (
   <div>
@@ -43,26 +43,41 @@ const IndexPage = ({ data }) => (
             what-have-you's.
           </p>
           <div className="social">
-            <span className="iconContainer">
+            <a
+              className="iconContainer"
+              href="https://www.linkedin.com/in/drew-owen-47a6ba45/"
+            >
               <FaLinkedinSquare />
-            </span>
-            <span className="iconContainer">
+            </a>
+            <a
+              href="https://github.com/dcowen91"
+              target="_blank"
+              className="iconContainer"
+            >
               <FaGithubSquare />
-            </span>
-            <span className="iconContainer">
+            </a>
+            <a
+              href="https://twitter.com/drewdacity"
+              target="_blank"
+              className="iconContainer"
+            >
               <FaTwitterSquare />
-            </span>
-            <span className="iconContainer">
+            </a>
+            <a
+              href="mailto:dcowen91@gmail.com"
+              target="_blank"
+              className="iconContainer"
+            >
               <FaEnvelopeSquare />
-            </span>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;
 
 export const query = graphql`
   query GatsbyImageQuery {
@@ -74,4 +89,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;
