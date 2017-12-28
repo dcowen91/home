@@ -1,31 +1,41 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^1.9.127",
-    "gatsby-image": "^1.0.30",
-    "gatsby-link": "^1.6.30",
-    "gatsby-plugin-netlify": "^1.0.12",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sharp": "^1.6.24",
-    "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-sharp": "^1.6.16",
-    "react-icons": "^2.2.7"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --write src/**/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "prettier": "^1.9.2"
-  }
+    "name": "dcowen_homepage",
+    "description": "homepage",
+    "version": "1.0.0",
+    "author": "Drew Owen <dcowen91@gmail.com>",
+    "dependencies": {
+        "gatsby": "^1.9.127",
+        "gatsby-image": "^1.0.30",
+        "gatsby-link": "^1.6.30",
+        "gatsby-plugin-netlify": "^1.0.12",
+        "gatsby-plugin-react-helmet": "^1.0.8",
+        "gatsby-plugin-sharp": "^1.6.24",
+        "gatsby-source-filesystem": "^1.5.11",
+        "gatsby-transformer-remark": "^1.7.26",
+        "gatsby-transformer-sharp": "^1.6.16",
+        "react-icons": "^2.2.7"
+    },
+    "keywords": ["gatsby"],
+    "license": "MIT",
+    "main": "n/a",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "format": "prettier --trailing-comma es5 --no-semi --write src/**/*.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "precommit": "lint-staged"
+    },
+    "lint-staged": {
+        "*.{ts,tsx,scss,js,json}": ["prettier --write", "git add"]
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "printWidth": 100
+    },
+    "devDependencies": {
+        "gatsby-plugin-remove-trailing-slashes": "^1.0.3",
+        "husky": "^0.14.3",
+        "lint-staged": "^6.0.0",
+        "prettier": "^1.9.2"
+    }
 }
