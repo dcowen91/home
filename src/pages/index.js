@@ -23,8 +23,8 @@ const IndexPage = ({ data }) => (
         <div className="content">
             <div className="nav">
                 <Link to="/">Home</Link>
-                <Link to="/">Blog</Link>
-                <Link to="/">Project</Link>
+                <Link to="/Blog">Blog</Link>
+                <Link to="/Project">Project</Link>
             </div>
             <div className="bio">
                 <div className="imageContainer">
