@@ -4,16 +4,17 @@
     "version": "1.0.0",
     "author": "Drew Owen <dcowen91@gmail.com>",
     "dependencies": {
-        "gatsby": "^1.9.127",
-        "gatsby-image": "^1.0.30",
-        "gatsby-link": "^1.6.30",
+        "gatsby": "^1.9.150",
+        "gatsby-image": "^1.0.31",
+        "gatsby-link": "^1.6.33",
         "gatsby-plugin-netlify": "^1.0.12",
-        "gatsby-plugin-react-helmet": "^1.0.8",
+        "gatsby-plugin-react-helmet": "^2.0.3",
         "gatsby-plugin-sharp": "^1.6.24",
         "gatsby-source-filesystem": "^1.5.11",
         "gatsby-transformer-remark": "^1.7.26",
         "gatsby-transformer-sharp": "^1.6.16",
-        "react-icons": "^2.2.7"
+        "react-icons": "^2.2.7",
+        "react-helmet": "^5.2.0"
     },
     "keywords": ["gatsby"],
     "license": "MIT",

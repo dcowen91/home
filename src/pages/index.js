@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => (
                 <Link to="/Blog">Blog</Link>
                 <Link to="/Project">Project</Link>
             </div>
-            <div className="bio">
+            <div id="main" className="bio">
                 <div className="imageContainer">
                     <Img
                         className="image"
