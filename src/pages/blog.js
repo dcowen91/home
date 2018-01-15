@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 
-const NotFoundPage = () => (
+const BlogPage = () => (
     <div>
         <div className="content">
             <div className="nav">
@@ -9,10 +9,10 @@ const NotFoundPage = () => (
                 <Link to="/Blog">Blog</Link>
                 <Link to="/Project">Project</Link>
             </div>
-            <h1>BLOG</h1>
+            <h2>Blog</h2>
             <p>I have blog posts, I promise, I just haven't written them here yet :).</p>
         </div>
     </div>
 );
 
-export default NotFoundPage;
+export default BlogPage;

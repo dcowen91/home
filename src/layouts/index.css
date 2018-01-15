@@ -718,3 +718,17 @@ pre tt:after {
     display: block !important;
     margin: auto;
 }
+
+.project > a {
+    box-shadow: none;
+    text-decoration: underline;
+    color: #000;
+}
+
+.project > a:hover {
+    color: #e05d44;
+}
+
+.link {
+    padding-left: 8px;
+}
