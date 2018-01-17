@@ -22,9 +22,31 @@ const IndexPage = ({ data }) => (
         </div>
         <div className="content">
             <div className="nav">
-                <Link to="/">Home</Link>
-                <Link to="/Blog">Blog</Link>
-                <Link to="/Project">Project</Link>
+                <Link
+                    activeStyle={{
+                        color: "#e05d44"
+                    }}
+                    to="/"
+                    exact={true}
+                >
+                    Home
+                </Link>
+                <Link
+                    activeStyle={{
+                        color: "#e05d44"
+                    }}
+                    to="/Blog"
+                >
+                    Blog
+                </Link>
+                <Link
+                    activeStyle={{
+                        color: "#e05d44"
+                    }}
+                    to="/Project"
+                >
+                    Project
+                </Link>
             </div>
             <div id="main" className="bio">
                 <div className="imageContainer">
