@@ -732,3 +732,13 @@ pre tt:after {
 .link {
     padding-left: 8px;
 }
+
+.previewTitle > a {
+    box-shadow: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.previewTitle > a:hover {
+    color: #e05d44;
+}

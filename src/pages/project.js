@@ -69,7 +69,7 @@ const ProjectPage = () => (
                     <p>An interactive stats website for goalscorers at the 2014 World Cup. </p>
                 </div>
                 <hr />
-                <span>
+                <span className="project">
                     For more, check out my
                     <a className="link" href="https://github.com/dcowen91" target="_blank">
                         GitHub
