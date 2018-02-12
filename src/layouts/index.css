@@ -686,6 +686,12 @@ pre tt:after {
     justify-content: center;
     flex-wrap: wrap;
 }
+@media (min-width: 760px) {
+    .bio {
+        width: 75%;
+        margin: auto;
+    }
+}
 
 .borderedContent {
     background-color: white;
