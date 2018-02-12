@@ -684,8 +684,6 @@ pre tt:after {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    margin: auto;
 }
 
 .borderedContent {
