@@ -12,34 +12,7 @@ const BlogPage = ({ data: { allMarkdownRemark: { edges } } }) => {
     ));
     return (
         <div>
-            <div className="content">
-                <div className="nav">
-                    <Link
-                        activeStyle={{
-                            color: "#e05d44"
-                        }}
-                        to="/#main"
-                        exact={true}
-                    >
-                        Home
-                    </Link>
-                    <Link
-                        activeStyle={{
-                            color: "#e05d44"
-                        }}
-                        to="/Blog"
-                    >
-                        Blog
-                    </Link>
-                    <Link
-                        activeStyle={{
-                            color: "#e05d44"
-                        }}
-                        to="/Project"
-                    >
-                        Project
-                    </Link>
-                </div>
+            <div className="borderedContent">
                 <h2>Blog</h2>
                 <div>{posts}</div>
             </div>
