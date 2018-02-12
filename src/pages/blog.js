@@ -12,7 +12,7 @@ const BlogPage = ({ data: { allMarkdownRemark: { edges } } }) => {
     ));
     return (
         <div>
-            <div className="borderedContent">
+            <div>
                 <h2>Blog</h2>
                 <div>{posts}</div>
             </div>

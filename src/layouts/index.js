@@ -36,7 +36,7 @@ const TemplateWrapper = ({ data, location, children }) => (
                     activeStyle={{
                         color: "#e05d44"
                     }}
-                    to="/"
+                    to="/#main"
                     exact={true}
                 >
                     Home
@@ -58,7 +58,11 @@ const TemplateWrapper = ({ data, location, children }) => (
                     Project
                 </Link>
             </div>
-            {children()}
+            {location.pathname === "/" ? (
+                children()
+            ) : (
+                <div className="borderedContent">{children()}</div>
+            )}
         </div>
     </div>
 );

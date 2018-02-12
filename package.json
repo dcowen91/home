@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "author": "Drew Owen <dcowen91@gmail.com>",
     "dependencies": {
-        "gatsby": "^1.9.150",
+        "gatsby": "1.9.192",
         "gatsby-image": "^1.0.31",
         "gatsby-link": "^1.6.33",
         "gatsby-plugin-netlify": "^1.0.12",
@@ -36,7 +36,7 @@
     "devDependencies": {
         "gatsby-plugin-remove-trailing-slashes": "^1.0.3",
         "husky": "^0.14.3",
-        "lint-staged": "^6.0.0",
-        "prettier": "^1.9.2"
+        "lint-staged": "^6.1.0",
+        "prettier": "^1.10.2"
     }
 }
