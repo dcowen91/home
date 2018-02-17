@@ -4,7 +4,7 @@ date: "2018-02-16"
 title: "Starseries 4 preview"
 ---
 
-The StarSeries 4 Finals begin tonight, marking the first premier LAN event since the major in January. There have been a plethora of roster changes since then, as well as prior transcations that can now be unveiled post major roster-lock. We've already seen some of these changes in play last weekend at cs_summit 2, but the stakes will be raised here Kiev, which will certainly have a much less laid-back environment than Los Angeles. There are 16 teams in attendance for this weeklong event, here's hwow they stack up along with their predicted group stage records.
+The StarSeries 4 Finals begin tonight, marking the first premier LAN event since the major in January. There have been a plethora of roster changes since then, as well as prior transactions that can now be unveiled post major roster-lock. We've already seen some of these changes in play last weekend at cs_summit 2, but the stakes will be raised here Kiev, which will certainly have a much less laid-back environment than Los Angeles. There are 16 teams in attendance for this weeklong event, here's how they stack up along with their predicted group stage records.
 
 ### Plainly overmatched
 
@@ -12,7 +12,7 @@ The StarSeries 4 Finals begin tonight, marking the first premier LAN event since
 
 15: Tyloo (0-3)
 
-MVP PK and Tyloo are both explicitlt not bad teams, but they are also both explicitly unexceptional teams with unexceptional talent levels compared to the rest of the teams in attendance. Tyloo might surprise a team and steal a map, but the group stage being best-of-three affairs should prevent them from chaining surprise victories into a quarterfinals appearance.
+MVP PK and Tyloo are both explicitly not bad teams, but they are also both explicitly unexceptional teams with unexceptional talent levels compared to the rest of the teams in attendance. Tyloo might surprise a team and steal a map, but the group stage being best-of-three affairs should prevent them from chaining surprise victories into a quarterfinals appearance.
 
 ### New year, new roster, old problems
 
@@ -32,11 +32,11 @@ For Renegades, their problems are much more straightforward: Jkaem is a less tal
 
 10: Natus Vincere (2-3)
 
-Hellraisers, Gambit and NaVi are all good but flawed teams. NaVi have one of the most unique, impressive, and controversial talents in the game in S1mple, but Zeus is still leading the team, and poorly. They are slowly improving and growing as a team, but they are still too top-heavy. They could easily make it out of groups, but shoudln't realistically challenge for the title here.
+Hellraisers, Gambit and NaVi are all good but flawed teams. NaVi have one of the most unique, impressive, and controversial talents in the game in S1mple, but Zeus is still leading the team, and poorly. They are slowly improving and growing as a team, but they are still too top-heavy. They could easily make it out of groups, but shouldn't realistically challenge for the title here.
 
 For Gambit, they are still trying to fill the void that was created immediately after winning the Krakow major. Since then, and even before that event in truth, they haven't looked like a team capable of consistently placing in tournaments. Fitch, Zeus's replacement, has now been replaced with seized, who was previously underperforming with NaVi. This endless shuffle with NaVi doesn't look to solve any of Gambits identity problems.
 
-HellRaisers will be playing with HS as a standin for ISSAA at this tournament. Even with their full roster in attendance at other events, they have yet to look like a lineup capable of big things. They've put together impressive group stage perfomances in the past, and can go toe to toe with top teams, but aren't consistent enough to take their game to the next level. They can be dangerous against any team, but shouldn't do any serious damage.
+HellRaisers will be playing with HS as a standin for ISSAA at this tournament. Even with their full roster in attendance at other events, they have yet to look like a lineup capable of big things. They've put together impressive group stage performances in the past, and can go toe to toe with top teams, but aren't consistent enough to take their game to the next level. They can be dangerous against any team, but shouldn't do any serious damage.
 
 ### New year, new roster, new hope
 
@@ -44,7 +44,7 @@ HellRaisers will be playing with HS as a standin for ISSAA at this tournament. E
 
 8: Astralis (3-2)
 
-2018 could be a big year for these danish rosters, as they both have new signings to unveil at this event. Heroic looked good last week in Los Angeles, where they took down North and unofficially claimed the title of Second Best Team in Denmark. Rubino will look to impress in his return to a top lineup, but the problem is that the player he is replacing, es3tag, was their second best performer at cs_summit 2. Heroic are a roster that look to be on the rise; they impress me more and more every event I see them at. The question for them is if their peak will be enough to take them into the upper echelon of CS. I don't think they are quite there yet, but they are getting close.
+2018 could be a big year for these Danish rosters, as they both have new signings to unveil at this event. Heroic looked good last week in Los Angeles, where they took down North and unofficially claimed the title of Second Best Team in Denmark. Rubino will look to impress in his return to a top lineup, but the problem is that the player he is replacing, es3tag, was their second best performer at cs_summit 2. Heroic are a roster that look to be on the rise; they impress me more and more every event I see them at. The question for them is if their peak will be enough to take them into the upper echelon of CS. I don't think they are quite there yet, but they are getting close.
 
 Astralis seemed to have been blindsided by the departure of Kjaerbye two weeks ago, but they quickly signed Magisk and are looking to come out swinging. Magisk has a lot to prove after failing to find success with the Optic experiment, and being cut from North before that. Thankfully, Astralis might be the perfect spot for him. He's still only 19, and needs players with maturity and patience to help him mature into a consistent player. in Astralis, even if he plays poorly, Dev1ce and co. are still talented enough to win against most opposition. That safety net should take some pressure off his shoulders, and help him find the form he had back on North. Astralis are a top team who have faced some serious adversity the past few months, but they should be able to rise above that and return to top form over the next few months.
 
@@ -54,9 +54,9 @@ Astralis seemed to have been blindsided by the departure of Kjaerbye two weeks a
 
 6: fnatic (3-2)
 
-Fnatic and mousesports are both teams that are slowly growing in form as they try to break into the highest echelon of CS. Not coincedentally, they are also two of the few teams at this tournament who haven't made a roster change in the last 5 months. For fnatic, they are trying to the glory days of old, when they were the best team in the world for the majority of 2015 with this same roster core. Golden and Lekro are stepping up against top talent, but the real story here is KRIMZ playing better than he ever has before - he had an insane rating of 1.33 at the major, and is averaging a 1.18 rating at LANs over the past three months. Fnatic are quietly become a top team again, and should do well this week.
+Fnatic and mousesports are both teams that are slowly growing in form as they try to break into the highest echelon of CS. Not coincidentally, they are also two of the few teams at this tournament who haven't made a roster change in the last 5 months. For fnatic, they are trying to the glory days of old, when they were the best team in the world for the majority of 2015 with this same roster core. Golden and Lekro are stepping up against top talent, but the real story here is KRIMZ playing better than he ever has before - he had an insane rating of 1.33 at the major, and is averaging a 1.18 rating at LANs over the past three months. Fnatic are quietly become a top team again, and should do well this week.
 
-For mousesports, the story is less of a return to form, but of finally capitalizing on potential. ChrisJ has been consistenly inconsistent player for what seems like the entirety of CS:GO's lifetime, but he looks to be finally leading a team that rises to the next level. Mous notably took second at the ECS finals in december, where they Faze to three combined overtimes in an incredibly close best of three series. Despite that, and other impressive results, they've yet to win a premier LAN. They might not be able to do so here, but they can definitely challenge and surprise any teams that aren't fully prepared.
+For mousesports, the story is less of a return to form, but of finally capitalizing on potential. ChrisJ has been consistently inconsistent player for what seems like the entirety of CS:GO's lifetime, but he looks to be finally leading a team that rises to the next level. Mous notably took second at the ECS finals in December, where they Faze to three combined overtimes in an incredibly close best of three series. Despite that, and other impressive results, they've yet to win a premier LAN. They might not be able to do so here, but they can definitely challenge and surprise any teams that aren't fully prepared.
 
 ### Loudly making the leap
 

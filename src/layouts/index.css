@@ -735,3 +735,11 @@ a:hover {
     background: hsl(150, 8%, 95%);
     min-height: 100vh;
 }
+
+.previewTitle {
+    margin-bottom: 10px;
+}
+
+.blogPostPreview {
+    margin-bottom: 15px;
+}
