@@ -14,9 +14,7 @@ module.exports = {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
                 trackingId: "UA-115643400-1",
-                head: false,
-                anonymize: true,
-                respectDNT: true
+                head: false
             }
         },
         `gatsby-plugin-remove-trailing-slashes`,
