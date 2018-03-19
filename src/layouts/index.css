@@ -743,3 +743,23 @@ a:hover {
 .blogPostPreview {
     margin-bottom: 15px;
 }
+
+
+.details {
+    display: flex;
+}
+
+.blogTitleContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.pill {
+    height: 30px;
+    border: 2px solid hsl(150, 8%, 95%);
+    background-color: hsl(150, 8%, 95%);
+    border-radius: 100px;
+    padding: 0 8px;
+    margin-right: 10px;
+}
+
+
