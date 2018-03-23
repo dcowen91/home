@@ -17,6 +17,9 @@ module.exports = {
                 head: false
             }
         },
+        {
+            resolve: "gatsby-plugin-no-sourcemaps"
+        },
         `gatsby-plugin-remove-trailing-slashes`,
         `gatsby-transformer-remark`,
         `gatsby-plugin-react-helmet`,
