@@ -2,6 +2,7 @@
 path: "/blog/gatsby-blog"
 date: "2018-01-21"
 title: "Getting to know GatsbyJS on an intimate level"
+tags: ["code"]
 ---
 
 Gatsby is a React-based static site generator, and the framework used to develop this site. If you are familiar at all with React, then it will be super easy to learn and use. It takes very little time to go from nothing to a minimal personal site or blog.. I pinky promise that this isn't sponsored content - GatsbyJS really is just that nice to use. It also has a mature plugin ecosystem, so there is tons of batteries-included functionality that you can get for free after a bit of googling or browsing [Awesome Gatsby](https://www.gatsbyjs.org/docs/awesome-gatsby/).

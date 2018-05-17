@@ -7,7 +7,10 @@ const BlogPage = ({ data: { allMarkdownRemark: { edges } } }) => {
             <h4 className="previewTitle">
                 <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
             </h4>
-            <h7>{post.frontmatter.date}</h7>
+            <div className="details">
+                <div className="pill">{post.frontmatter.tags}</div>
+                <div>{post.frontmatter.date}</div>
+            </div>
         </div>
     ));
     return (
@@ -33,6 +36,7 @@ export const pageQuery = graphql`
                         date(formatString: "MMMM DD, YYYY")
                         path
                         title
+                        tags
                     }
                 }
             }

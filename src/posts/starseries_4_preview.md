@@ -2,6 +2,7 @@
 path: "/blog/starseries-4-preview"
 date: "2018-02-16"
 title: "Starseries 4 preview"
+tags: ["csgo"]
 ---
 
 The StarSeries 4 Finals begin tonight, marking the first premier LAN event since the major in January. There have been a plethora of roster changes since then, as well as prior transactions that can now be unveiled post major roster-lock. We've already seen some of these changes in play last weekend at cs_summit 2, but the stakes will be raised here Kiev, which will certainly have a much less laid-back environment than Los Angeles. There are 16 teams in attendance for this weeklong event, here's how they stack up along with their predicted group stage records.
