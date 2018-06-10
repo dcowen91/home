@@ -3,6 +3,7 @@ path: "/blog/world-cup-group-preview"
 date: "2018-06-10"
 title: "World Cup Group Stage Preview"
 tags: ["soccer"]
+id: "4"
 ---
 
 The greatest sporting event in the world is here! If you are reading this article I assume you are as fucking pumped for the World Cup as I am, so I won't bore you with an introduction that rehashes talking points you've already read five different time. I'll jump straight into my own pointlessly subjective opinions, hot takes and wildly inaccurate predictions, the real reason you are here.

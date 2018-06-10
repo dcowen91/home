@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "gatsby-link";
+import ReactDisqusComments from "react-disqus-comments";
 
 export default function Template({ data }) {
     const { markdownRemark } = data;
@@ -12,6 +12,13 @@ export default function Template({ data }) {
             </div>
             <h4>{frontmatter.date}</h4>
             <div className="blogPostContent" dangerouslySetInnerHTML={{ __html: html }} />
+            <ReactDisqusComments
+                shortname={"dcowen-co"}
+                identifier={frontmatter.id}
+                title={frontmatter.title}
+                url={"https://dcowen.co" + frontmatter.path}
+                category_id={frontmatter.tags[0]}
+            />
         </div>
     );
 }
@@ -25,6 +32,7 @@ export const pageQuery = graphql`
                 path
                 title
                 tags
+                id
             }
         }
     }

@@ -3,6 +3,7 @@ path: "/blog/tottenham-2018-review"
 date: "2018-06-09"
 title: "Tottenham Hotspur 2018 Season Review"
 tags: ["soccer"]
+id: "3"
 ---
 
 The 2017-2018 season was objectively a very good one for Tottenham Hotspur. But as a fan, it's hard not to feel a bit aggrieved considering how close Spurs were to achieving so much more. Yes, they secured Champions League football for the third consecutive season. Without that, this year would have been an abject failure. But considering the heartbreaking losses in the Champions League and FA Cup, and the uninspired league performances to wrap up the season, it feels like a melancholic "what could have been" type of season despite the obvious successes.
@@ -53,11 +54,11 @@ Watching Toby make his trademark diagonal passes against Leicester in the last g
 
 ##### 13 Kieran Trippier
 
-Fullback might be the most undervalued position by fans in the modern game. The system at spurs requires Trippier to provide all the attacking width down the right flank, while still having full defensive responsibilities. Trippier does get valid criticism for not being the best one on one defender and his tendency to be caught out of position at crucial moments, but he is probably the best crosser of a ball in the team and doesn't get enough credit for that. 
+Fullback might be the most undervalued position by fans in the modern game. The system at spurs requires Trippier to provide all the attacking width down the right flank, while still having full defensive responsibilities. Trippier does get valid criticism for not being the best one on one defender and his tendency to be caught out of position at crucial moments, but he is probably the best crosser of a ball in the team and doesn't get enough credit for that.
 
 ##### 12 Erik Lamela
 
-Oh, Coco... Probably the most divisive player in the roster, it's hard to say anything about him one way or the other without it becoming a *Hot Take*, so I've resigned myself to voicing both sides of the argument in a frustratingly neutral review. While I'm not one of those fans who are delusional enough to think that Lamela should be in the Argentina World Cup squad (yes, they actually exist), I also think Spurs shouldn't sell him as he has a lot he can offer to the team. One thing everyone can agree on is that he's an absolutely rabid player when he's on the pitch, and he truly epitomizes the pressing philosophy that Pochettino brought to Spurs. Lamela fans will tell you that he's also incredibly talented on the ball when he's comfortable and feeling confident. They will say that he's simultaneously the perfect backup to Eriksen, Alli, and Son, and could take any of their starting positions in the coming season. Lamela non-fans will tell you that all he does is slow our offensive play down. They will say he takes too long to decide what to do with the ball, before inevitably playing a 5 foot sideways pass. Unfortunately, they are both correct at times. He can be an incredibly frustrating player to watch, but the moments of brilliance are worth it.
+Oh, Coco... Probably the most divisive player in the roster, it's hard to say anything about him one way or the other without it becoming a _Hot Take_, so I've resigned myself to voicing both sides of the argument in a frustratingly neutral review. While I'm not one of those fans who are delusional enough to think that Lamela should be in the Argentina World Cup squad (yes, they actually exist), I also think Spurs shouldn't sell him as he has a lot he can offer to the team. One thing everyone can agree on is that he's an absolutely rabid player when he's on the pitch, and he truly epitomizes the pressing philosophy that Pochettino brought to Spurs. Lamela fans will tell you that he's also incredibly talented on the ball when he's comfortable and feeling confident. They will say that he's simultaneously the perfect backup to Eriksen, Alli, and Son, and could take any of their starting positions in the coming season. Lamela non-fans will tell you that all he does is slow our offensive play down. They will say he takes too long to decide what to do with the ball, before inevitably playing a 5 foot sideways pass. Unfortunately, they are both correct at times. He can be an incredibly frustrating player to watch, but the moments of brilliance are worth it.
 
 #### Starting 11
 
@@ -95,7 +96,7 @@ Dele “only” scored 9 goals in the Premier League, compared to 18 last year. 
 
 ##### 3 Hugo Lloris
 
-Despite my previous praise of Fernando Llorente, Hugo is hands down the most good-looking player for Spurs. The importance of this fact can’t be understated, as his disarming smile and calm, suave demeanor has often distracted opposition strikers and undoubtedly saved Spurs countless points. Hugo had a bit of a dip in form this year, letting in a few more questionable goals than normal. He’s still one of the top keepers in the Premier League and takes the #3 spot in this prestigious ranking. 
+Despite my previous praise of Fernando Llorente, Hugo is hands down the most good-looking player for Spurs. The importance of this fact can’t be understated, as his disarming smile and calm, suave demeanor has often distracted opposition strikers and undoubtedly saved Spurs countless points. Hugo had a bit of a dip in form this year, letting in a few more questionable goals than normal. He’s still one of the top keepers in the Premier League and takes the #3 spot in this prestigious ranking.
 
 ##### 2 Christian Eriksen
 
