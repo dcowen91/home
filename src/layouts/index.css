@@ -697,6 +697,7 @@ pre tt:after {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 10px;
     padding: 25px;
+    border-radius: 10px;
 }
 
 .imageContainer {
@@ -744,7 +745,6 @@ a:hover {
     margin-bottom: 15px;
 }
 
-
 .details {
     display: flex;
 }
@@ -761,5 +761,3 @@ a:hover {
     padding: 0 8px;
     margin-right: 10px;
 }
-
-
