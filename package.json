@@ -4,6 +4,7 @@
     "version": "1.0.0",
     "author": "Drew Owen <dcowen91@gmail.com>",
     "dependencies": {
+        "disqus-react": "^1.0.5",
         "gatsby": "1.9.232",
         "gatsby-image": "1.0.42",
         "gatsby-link": "1.6.39",
@@ -15,7 +16,6 @@
         "gatsby-source-filesystem": "1.5.27",
         "gatsby-transformer-remark": "1.7.36",
         "gatsby-transformer-sharp": "1.6.22",
-        "react-disqus-comments": "^1.2.0",
         "react-helmet": "5.2.0",
         "react-icons": "2.2.7"
     },

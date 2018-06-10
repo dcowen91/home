@@ -1,9 +1,17 @@
 import React from "react";
-import ReactDisqusComments from "react-disqus-comments";
+import Disqus from "disqus-react";
 
 export default function Template({ data }) {
     const { markdownRemark } = data;
     const { frontmatter, html } = markdownRemark;
+
+    const disqusShortname = "dcowen-co";
+    const disqusConfig = {
+        url: "https://dcowen.co" + frontmatter.path,
+        identifier: frontmatter.id,
+        title: frontmatter.title
+    };
+
     return (
         <div className="blogPost">
             <div className="blogTitleContainer">
@@ -12,13 +20,7 @@ export default function Template({ data }) {
             </div>
             <h4>{frontmatter.date}</h4>
             <div className="blogPostContent" dangerouslySetInnerHTML={{ __html: html }} />
-            <ReactDisqusComments
-                shortname={"dcowen-co"}
-                identifier={frontmatter.id}
-                title={frontmatter.title}
-                url={"https://dcowen.co" + frontmatter.path}
-                category_id={frontmatter.tags[0]}
-            />
+            <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
         </div>
     );
 }
