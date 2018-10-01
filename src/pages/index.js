@@ -1,13 +1,7 @@
 import React from "react";
-import Link from "gatsby-link";
 import Img from "gatsby-image";
-import {
-    FaTwitterSquare,
-    FaGithubSquare,
-    FaLinkedinSquare,
-    FaEnvelopeSquare,
-    FaAdjust
-} from "react-icons/lib/fa";
+import { graphql } from "gatsby";
+import { FaTwitterSquare, FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from "react-icons/fa";
 
 const IndexPage = ({ data }) => (
     <div id="main" className="bio borderedContent">
@@ -18,22 +12,35 @@ const IndexPage = ({ data }) => (
             <h2>Drew Owen</h2>
             <p>
                 I'm a Seattle based Software Engineer.
-                <br />
-                I work on cool things on the web.
-                <br />
-                I write about code, sports, esports, tech, and various what-have-you's.
+                <br />I work on cool things on the web.
+                <br />I write about code, sports, esports, tech, and various what-have-you's.
             </p>
             <div className="social">
                 <a className="iconContainer" href="https://www.linkedin.com/in/drew-owen-47a6ba45/">
-                    <FaLinkedinSquare />
+                    <FaLinkedin />
                 </a>
-                <a href="https://github.com/dcowen91" target="_blank" className="iconContainer">
+                <a
+                    href="https://github.com/dcowen91"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="iconContainer"
+                >
                     <FaGithubSquare />
                 </a>
-                <a href="https://twitter.com/drewdacity" target="_blank" className="iconContainer">
+                <a
+                    href="https://twitter.com/drewdacity"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="iconContainer"
+                >
                     <FaTwitterSquare />
                 </a>
-                <a href="mailto:dcowen91@gmail.com" target="_blank" className="iconContainer">
+                <a
+                    href="mailto:dcowen91@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="iconContainer"
+                >
                     <FaEnvelopeSquare />
                 </a>
             </div>

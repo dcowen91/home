@@ -36,27 +36,34 @@ const ProjectPage = () => (
         <h2>Project</h2>
         <p>Here are a few things I've worked on.</p>
         <div>
-            {projects.map(({ link, title, description }) => {
-                return (
-                    <div>
-                        <div className="project">
-                            <a href={link} target="_blank">
-                                {title}
-                            </a>
-                            <p>{description}</p>
-                        </div>
-                        <hr />
-                    </div>
-                );
-            })}
+            {projects.map(projectBox)}
             <span className="project">
                 For more, check out my
-                <a className="link" href="https://github.com/dcowen91" target="_blank">
+                <a
+                    className="link"
+                    href="https://github.com/dcowen91"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     GitHub
                 </a>
             </span>
         </div>
     </div>
 );
+
+const projectBox = ({ link, title, description }) => {
+    return (
+        <div>
+            <div className="project">
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                    {title}
+                </a>
+                <p>{description}</p>
+            </div>
+            <hr />
+        </div>
+    );
+};
 
 export default ProjectPage;
