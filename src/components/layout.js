@@ -2,11 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
-import Img from "gatsby-image";
 
 import "./index.css";
 
-const TemplateWrapper = ({ data, location, children }) => (
+const TemplateWrapper = ({ children }) => (
     <div className="root">
         <Helmet
             title="dcowen"
@@ -15,20 +14,6 @@ const TemplateWrapper = ({ data, location, children }) => (
                 { name: "keywords", content: "Drew Owen homepage" }
             ]}
         />
-        {location.pathname === "/" && (
-            <div className="hero">
-                <Img
-                    css={{ top: 0, left: 0, right: 0, zIndex: -1 }}
-                    sizes={data.background.sizes}
-                />
-                <div className="headerContainer">
-                    <h1>
-                        <span className="prefix">dc</span>
-                        <span>owen</span>
-                    </h1>
-                </div>
-            </div>
-        )}
 
         <div className="content">
             <div className="nav">
@@ -36,7 +21,7 @@ const TemplateWrapper = ({ data, location, children }) => (
                     activeStyle={{
                         color: "#e05d44"
                     }}
-                    to="/#main"
+                    to="/"
                     exact={true}
                 >
                     Home
@@ -58,11 +43,7 @@ const TemplateWrapper = ({ data, location, children }) => (
                     Project
                 </Link>
             </div>
-            {location.pathname === "/" ? (
-                children()
-            ) : (
-                <div className="borderedContent">{children()}</div>
-            )}
+            {children}
         </div>
     </div>
 );

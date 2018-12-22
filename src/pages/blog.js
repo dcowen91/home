@@ -1,7 +1,12 @@
 import React from "react";
 import Link from "gatsby-link";
+import Layout from "../components/layout";
 
-const BlogPage = ({ data: { allMarkdownRemark: { edges } } }) => {
+const BlogPage = ({
+    data: {
+        allMarkdownRemark: { edges }
+    }
+}) => {
     const posts = edges.filter(edge => !!edge.node.frontmatter.date).map(({ node: post }) => (
         <div className="blogPostPreview" key={post.id}>
             <h4 className="previewTitle">
@@ -14,12 +19,14 @@ const BlogPage = ({ data: { allMarkdownRemark: { edges } } }) => {
         </div>
     ));
     return (
-        <div>
+        <Layout>
             <div>
-                <h2>Blog</h2>
-                <div>{posts}</div>
+                <div>
+                    <h2>Blog</h2>
+                    <div>{posts}</div>
+                </div>
             </div>
-        </div>
+        </Layout>
     );
 };
 

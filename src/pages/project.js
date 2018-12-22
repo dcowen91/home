@@ -1,4 +1,5 @@
 import React from "react";
+import Layout from "../components/layout";
 
 const projects = [
     {
@@ -32,29 +33,31 @@ const projects = [
 ];
 
 const ProjectPage = () => (
-    <div>
-        <h2>Project</h2>
-        <p>Here are a few things I've worked on.</p>
+    <Layout>
         <div>
-            {projects.map(projectBox)}
-            <span className="project">
-                For more, check out my
-                <a
-                    className="link"
-                    href="https://github.com/dcowen91"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    GitHub
-                </a>
-            </span>
+            <h2>Project</h2>
+            <p>Here are a few things I've worked on.</p>
+            <div>
+                {projects.map(projectBox)}
+                <span className="project">
+                    For more, check out my
+                    <a
+                        className="link"
+                        href="https://github.com/dcowen91"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+                </span>
+            </div>
         </div>
-    </div>
+    </Layout>
 );
 
 const projectBox = ({ link, title, description }) => {
     return (
-        <div>
+        <div key={link}>
             <div className="project">
                 <a href={link} target="_blank" rel="noopener noreferrer">
                     {title}
