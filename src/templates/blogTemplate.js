@@ -1,33 +1,20 @@
 import React from "react";
 import Disqus from "disqus-react";
-import { StaticQuery, graphql } from "gatsby";
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
 
-export default () => (
-    <StaticQuery
-        query={graphql`
-            query BlogPostByPath($path: String!) {
-                markdownRemark(frontmatter: { path: { eq: $path } }) {
-                    html
-                    frontmatter {
-                        date(formatString: "MMMM DD, YYYY")
-                        path
-                        title
-                        tags
-                        id
-                    }
-                }
-            }
-        `}
-        render={data => {
-            const { frontmatter, html } = data.markdownRemark;
-            const disqusShortname = "dcowen-co";
-            const disqusConfig = {
-                url: "https://dcowen.co" + frontmatter.path,
-                identifier: frontmatter.id,
-                title: frontmatter.title
-            };
+export default ({ data }) => {
+    const { frontmatter, html } = data.markdownRemark;
+    const disqusShortname = "dcowen-co";
+    const disqusConfig = {
+        url: "https://dcowen.co" + frontmatter.path,
+        identifier: frontmatter.id,
+        title: frontmatter.title
+    };
 
-            return (
+    return (
+        <Layout>
+            <div className="borderedContent">
                 <div className="blogPost">
                     <div className="blogTitleContainer">
                         <h2>{frontmatter.title}</h2>
@@ -37,7 +24,22 @@ export default () => (
                     <div className="blogPostContent" dangerouslySetInnerHTML={{ __html: html }} />
                     <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
                 </div>
-            );
-        }}
-    />
-);
+            </div>
+        </Layout>
+    );
+};
+
+export const pageQuery = graphql`
+    query BlogPostByPath($path: String!) {
+        markdownRemark(frontmatter: { path: { eq: $path } }) {
+            html
+            frontmatter {
+                date(formatString: "MMMM DD, YYYY")
+                path
+                title
+                tags
+                id
+            }
+        }
+    }
+`;
