@@ -6,9 +6,11 @@ my homepage
 
 # TODO
 
-* Typescript
-* Add scss/ css modules
-* typography js
-* delete unused styles, pages
-* blog more
-* add tags
+-   [ ] Convert to v2
+-   [ ] Typescript
+-   [ ] Use css modules
+-   [ ] Refresh layout/styles
+-   [ ] Typography js
+-   [ ] Delete unused styles, pages
+-   [ ] Blog more
+-   [ ] Add tags/more blog capabilities

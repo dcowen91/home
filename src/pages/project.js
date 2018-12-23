@@ -34,7 +34,7 @@ const projects = [
 
 const ProjectPage = () => (
     <Layout>
-        <div>
+        <div className="borderedContent">
             <h2>Project</h2>
             <p>Here are a few things I've worked on.</p>
             <div>

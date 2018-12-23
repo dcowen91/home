@@ -1,16 +1,15 @@
 import React from "react";
-import PropTypes from "prop-types";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 import Helmet from "react-helmet";
 
 import "./index.css";
 
-const TemplateWrapper = ({ children }) => (
+export default ({ children }) => (
     <div className="root">
         <Helmet
             title="dcowen"
             meta={[
-                { name: "description", content: "Drew Owen homepage" },
+                { name: "description", content: "Drew Owen hombepage" },
                 { name: "keywords", content: "Drew Owen homepage" }
             ]}
         />
@@ -22,7 +21,6 @@ const TemplateWrapper = ({ children }) => (
                         color: "#e05d44"
                     }}
                     to="/"
-                    exact={true}
                 >
                     Home
                 </Link>
@@ -30,7 +28,7 @@ const TemplateWrapper = ({ children }) => (
                     activeStyle={{
                         color: "#e05d44"
                     }}
-                    to="/Blog"
+                    to="/blog"
                 >
                     Blog
                 </Link>
@@ -38,7 +36,7 @@ const TemplateWrapper = ({ children }) => (
                     activeStyle={{
                         color: "#e05d44"
                     }}
-                    to="/Project"
+                    to="/project"
                 >
                     Project
                 </Link>
@@ -47,26 +45,3 @@ const TemplateWrapper = ({ children }) => (
         </div>
     </div>
 );
-
-TemplateWrapper.propTypes = {
-    children: PropTypes.func
-};
-
-export default TemplateWrapper;
-
-export const homePageQuery = graphql`
-    query ImageQuery {
-        headshot: file(relativePath: { eq: "layouts/me.jpg" }) {
-            childImageSharp {
-                resolutions(width: 175, height: 175) {
-                    ...GatsbyImageSharpResolutions
-                }
-            }
-        }
-        background: imageSharp(id: { regex: "/bg2/" }) {
-            sizes(maxWidth: 3000) {
-                ...GatsbyImageSharpSizes
-            }
-        }
-    }
-`;
