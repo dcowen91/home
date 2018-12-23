@@ -1,10 +1,10 @@
-import React from "react";
+import * as React from "react";
 import { Link } from "gatsby";
 import Helmet from "react-helmet";
 
 import "./index.css";
 
-export default ({ children }) => (
+export default ({ children }: React.Props<{}>) => (
     <div className="root">
         <Helmet
             title="dcowen"
@@ -13,7 +13,6 @@ export default ({ children }) => (
                 { name: "keywords", content: "Drew Owen homepage" }
             ]}
         />
-
         <div className="content">
             <div className="nav">
                 <Link
@@ -26,7 +25,7 @@ export default ({ children }) => (
                 </Link>
                 <Link
                     getProps={({ isPartiallyCurrent }) =>
-                        isPartiallyCurrent ? { style: { color: "#e05d44" } } : null
+                        isPartiallyCurrent ? ({ style: { color: "#e05d44" } } as {}) : {}
                     }
                     to="/blog"
                 >

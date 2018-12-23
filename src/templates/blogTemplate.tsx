@@ -1,9 +1,17 @@
-import React from "react";
+import * as React from "react";
 import Disqus from "disqus-react";
 import { graphql } from "gatsby";
+
+import { IBlogPost } from "../models/IBlogPost";
 import Layout from "../components/layout";
 
-export default ({ data }) => {
+interface IProps {
+    data: {
+        markdownRemark: IBlogPost;
+    };
+}
+
+export default ({ data }: IProps) => {
     const { frontmatter, html } = data.markdownRemark;
     const disqusShortname = "dcowen-co";
     const disqusConfig = {

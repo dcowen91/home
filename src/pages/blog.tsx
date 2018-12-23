@@ -1,6 +1,15 @@
-import React from "react";
+import * as React from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
 import Layout from "../components/layout";
+import { IBlogPost } from "../models/IBlogPost";
+
+interface IProps {
+    allMarkdownRemark: {
+        edges: {
+            node: IBlogPost;
+        }[];
+    };
+}
 
 export default () => (
     <StaticQuery
@@ -22,7 +31,7 @@ export default () => (
                 }
             }
         `}
-        render={data => (
+        render={(data: IProps) => (
             <Layout>
                 <div className="borderedContent">
                     <div>

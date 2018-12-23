@@ -7,7 +7,8 @@ my homepage
 # TODO
 
 -   [x] Convert to gatsby v2
--   [ ] Typescript
+-   [x] Add Typescript
+-   [ ] Add more types/tslint
 -   [ ] Use css modules
 -   [ ] Refresh layout/styles
 -   [ ] Typography js

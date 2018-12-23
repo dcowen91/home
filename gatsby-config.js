@@ -23,6 +23,13 @@ module.exports = {
         `gatsby-plugin-remove-trailing-slashes`,
         `gatsby-transformer-remark`,
         `gatsby-plugin-react-helmet`,
+        {
+            resolve: `gatsby-plugin-typescript`,
+            options: {
+                isTSX: true,
+                allExtensions: true
+            }
+        },
         `gatsby-transformer-sharp`,
         `gatsby-plugin-netlify`
     ]

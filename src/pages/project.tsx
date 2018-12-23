@@ -1,7 +1,13 @@
-import React from "react";
+import * as React from "react";
 import Layout from "../components/layout";
 
-const projects = [
+interface IProject {
+    link: string;
+    title: string;
+    description: string;
+}
+
+const projects: IProject[] = [
     {
         link: "https://github.com/dcowen91/palette-search",
         title: "Palette-search",
@@ -55,7 +61,7 @@ const ProjectPage = () => (
     </Layout>
 );
 
-const projectBox = ({ link, title, description }) => {
+const projectBox = ({ link, title, description }: IProject) => {
     return (
         <div key={link}>
             <div className="project">
