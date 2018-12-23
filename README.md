@@ -6,7 +6,7 @@ my homepage
 
 # TODO
 
--   [x] Convert to v2
+-   [x] Convert to gatsby v2
 -   [ ] Typescript
 -   [ ] Use css modules
 -   [ ] Refresh layout/styles

@@ -25,9 +25,9 @@ export default ({ children }) => (
                     Home
                 </Link>
                 <Link
-                    activeStyle={{
-                        color: "#e05d44"
-                    }}
+                    getProps={({ isPartiallyCurrent }) =>
+                        isPartiallyCurrent ? { style: { color: "#e05d44" } } : null
+                    }
                     to="/blog"
                 >
                     Blog
