@@ -32,6 +32,6 @@ INTZ are another team that have made recent roster transitions but will only hav
 
 FURIA and TeamOne are the only two teams with no players with previous Major experience. Contrast that with Envy, who has by far the most Major experience, four different players having attending a combined 25 Majors (karrigan accounts for 12 of those). I think FURIA and TeamOne are both good teams with some talented players, with kscerato on FURIA in particular being someone to watch out for to have a huge impact. While a lack of experience alone isn't a dealbreaker, neither of these teams have enough firepower to advance.
 
-#### I Don't follow Brazilian CS Award: Imperial
+#### I Don't Follow Brazilian CS Award: Imperial
 
 SHOOWTiME and zqkS are both players veteran CS fans should be familiar with, but the rest of the squad is unfortunately unknown to me. And that's not a knock on them - a simple HLTV perusal shows they have good results against other Brazilian CS teams. I simply don't follow Brazilian CS closely enough to comment accurately on this team. I could totally see them make a fool of me by beating INTZ and Bravado in groups, but I'm going to make a conservative prediction and say that they won't advance.
