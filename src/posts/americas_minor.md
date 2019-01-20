@@ -6,7 +6,7 @@ tags: ["csgo"]
 id: "6"
 ---
 
-The surprisingly multinational Americas Minor kicks off on Tuesday with eight teams fighting for two spots in the Major Main Qualifier, and one more team headed to the last-chance qualifier (The qualifier for the qualifier for the... Major! It sounds confusing, but it is really just one extra step). The North American region was allocated six out of the eight qualifying spots, but U.S. and Canada-based teams will find themselves outnumbered here against challengers from the South. There are four teams here with almost entirely Brazilian rosters (19 Brazilian players and one token Argentine, NikoM for TeamOne), and finally one South African squad that is currently playing in Texas. Let's go over a few bold and not-so-bold predictions for the event!
+The surprisingly multinational Americas Minor kicks off on Tuesday with eight teams fighting for two spots in the IEM Katowice Major Main Qualifier, and one more team headed to the last-chance qualifier (The qualifier for the qualifier for the... Major! It sounds confusing, but it is really just one extra step). The North American region was allocated six out of the eight qualifying spots, but U.S. and Canada-based teams will find themselves outnumbered here against challengers from the South. There are four teams here with almost entirely Brazilian rosters (19 Brazilian players and one token Argentine, NikoM for TeamOne), and finally one South African squad that is currently playing in Texas. Let's go over a few bold and not-so-bold predictions for the event!
 
 ### Qualifying Team #1: NRG
 
