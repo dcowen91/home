@@ -4,26 +4,26 @@
     "version": "1.0.0",
     "author": "Drew Owen <dcowen91@gmail.com>",
     "dependencies": {
-        "@types/react": "^16.7.18",
-        "@types/react-helmet": "^5.0.7",
-        "disqus-react": "1.0.5",
-        "gatsby": "2.0.75",
-        "gatsby-image": "2.0.25",
-        "gatsby-link": "2.0.7",
-        "gatsby-plugin-google-analytics": "2.0.8",
-        "gatsby-plugin-netlify": "2.0.6",
-        "gatsby-plugin-no-sourcemaps": "2.0.1",
-        "gatsby-plugin-react-helmet": "3.0.5",
-        "gatsby-plugin-remove-trailing-slashes": "2.0.6",
-        "gatsby-plugin-sharp": "2.0.16",
-        "gatsby-plugin-typescript": "^2.0.3",
-        "gatsby-source-filesystem": "2.0.12",
-        "gatsby-transformer-remark": "2.1.17",
-        "gatsby-transformer-sharp": "2.1.9",
-        "react": "16.7.0",
-        "react-dom": "16.7.0",
-        "react-helmet": "5.2.0",
-        "react-icons": "3.2.2"
+        "@types/react": "^16.8.14",
+        "@types/react-helmet": "^5.0.8",
+        "disqus-react": "^1.0.5",
+        "gatsby": "^2.3.29",
+        "gatsby-image": "^2.0.40",
+        "gatsby-link": "^2.0.16",
+        "gatsby-plugin-google-analytics": "^2.0.18",
+        "gatsby-plugin-netlify": "^2.0.15",
+        "gatsby-plugin-no-sourcemaps": "^2.0.2",
+        "gatsby-plugin-react-helmet": "^3.0.12",
+        "gatsby-plugin-remove-trailing-slashes": "^2.0.11",
+        "gatsby-plugin-sharp": "^2.0.35",
+        "gatsby-plugin-typescript": "^2.0.13",
+        "gatsby-source-filesystem": "^2.0.32",
+        "gatsby-transformer-remark": "^2.3.11",
+        "gatsby-transformer-sharp": "^2.1.18",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-helmet": "^5.2.0",
+        "react-icons": "^3.6.1"
     },
     "keywords": [
         "gatsby"
@@ -51,10 +51,10 @@
         "printWidth": 100
     },
     "devDependencies": {
-        "husky": "1.0.1",
-        "lint-staged": "7.3.0",
-        "prettier": "1.14.3",
-        "typescript": "^3.2.2"
+        "husky": "^2.1.0",
+        "lint-staged": "^8.1.5",
+        "prettier": "^1.17.0",
+        "typescript": "^3.4.5"
     },
     "repository": {
         "type": "git",
