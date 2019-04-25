@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 
 import { IBlogPost } from "../models/IBlogPost";
 import Layout from "../components/layout";
+import { Pill } from "../components/pill";
 
 interface IProps {
     data: {
@@ -26,7 +27,7 @@ export default ({ data }: IProps) => {
                 <div className="blogPost">
                     <div className="blogTitleContainer">
                         <h2>{frontmatter.title}</h2>
-                        <div className="pill">{frontmatter.tags}</div>
+                        <Pill tags={frontmatter.tags} />
                     </div>
                     <h4>{frontmatter.date}</h4>
                     <div className="blogPostContent" dangerouslySetInnerHTML={{ __html: html }} />

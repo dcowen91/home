@@ -2,6 +2,7 @@ import * as React from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
 import Layout from "../components/layout";
 import { IBlogPost } from "../models/IBlogPost";
+import { Pill } from "../components/pill";
 
 interface IProps {
     allMarkdownRemark: {
@@ -47,7 +48,7 @@ export default () => (
                                             </Link>
                                         </h4>
                                         <div className="details">
-                                            <div className="pill">{post.frontmatter.tags}</div>
+                                            <Pill tags={post.frontmatter.tags} />
                                             <div>{post.frontmatter.date}</div>
                                         </div>
                                     </div>

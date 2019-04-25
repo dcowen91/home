@@ -20,6 +20,7 @@ module.exports = {
         {
             resolve: "gatsby-plugin-no-sourcemaps"
         },
+        `gatsby-plugin-emotion`,
         `gatsby-plugin-remove-trailing-slashes`,
         `gatsby-transformer-remark`,
         `gatsby-plugin-react-helmet`,
