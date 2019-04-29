@@ -1,7 +1,7 @@
 import * as React from "react";
 import Disqus from "disqus-react";
 import { graphql } from "gatsby";
-
+import { css } from "@emotion/core";
 import { IBlogPost } from "../models/IBlogPost";
 import Layout from "../components/layout";
 import { Pill } from "../components/pill";
@@ -21,11 +21,16 @@ export default ({ data }: IProps) => {
         title: frontmatter.title
     };
 
+    const blogTitleStyle = css({
+        display: "flex",
+        justifyContent: "space-between"
+    });
+
     return (
         <Layout>
             <div className="borderedContent">
                 <div className="blogPost">
-                    <div className="blogTitleContainer">
+                    <div css={blogTitleStyle}>
                         <h2>{frontmatter.title}</h2>
                         <Pill tags={frontmatter.tags} />
                     </div>

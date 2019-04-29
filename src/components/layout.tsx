@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import Helmet from "react-helmet";
-
+import { css } from "@emotion/core";
 import "./index.css";
 
 export default ({ children }: React.Props<{}>) => (
-    <div className="root">
+    <div css={css({ background: "hsl(150, 8%, 95%)", minHeight: "100vh" })}>
         <Helmet
             title="dcowen"
             meta={[

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { css } from "@emotion/core";
 import Layout from "../components/layout";
 
 interface IProject {
@@ -48,7 +49,7 @@ const ProjectPage = () => (
                 <span className="project">
                     For more, check out my
                     <a
-                        className="link"
+                        css={css({ paddingLeft: 8 })}
                         href="https://github.com/dcowen91"
                         target="_blank"
                         rel="noopener noreferrer"

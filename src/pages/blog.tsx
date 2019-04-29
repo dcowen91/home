@@ -3,6 +3,7 @@ import { Link, graphql, StaticQuery } from "gatsby";
 import Layout from "../components/layout";
 import { IBlogPost } from "../models/IBlogPost";
 import { Pill } from "../components/pill";
+import { css } from "@emotion/core";
 
 interface IProps {
     allMarkdownRemark: {
@@ -41,13 +42,13 @@ export default () => (
                             {data.allMarkdownRemark.edges
                                 .filter(edge => !!edge.node.frontmatter.date)
                                 .map(({ node: post }) => (
-                                    <div className="blogPostPreview" key={post.id}>
-                                        <h4 className="previewTitle">
+                                    <div css={css({ marginBottom: 15 })} key={post.id}>
+                                        <h4 css={css({ marginBottom: 10 })}>
                                             <Link to={post.frontmatter.path}>
                                                 {post.frontmatter.title}
                                             </Link>
                                         </h4>
-                                        <div className="details">
+                                        <div css={css({ display: "flex" })}>
                                             <Pill tags={post.frontmatter.tags} />
                                             <div>{post.frontmatter.date}</div>
                                         </div>

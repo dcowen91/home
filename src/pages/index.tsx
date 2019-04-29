@@ -34,6 +34,8 @@ export default () => (
                         <div className="social">
                             <a
                                 className="iconContainer"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.linkedin.com/in/drew-owen-47a6ba45/"
                             >
                                 <FaLinkedin />
