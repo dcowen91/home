@@ -13,7 +13,16 @@ export default ({ children }: React.Props<{}>) => (
                 { name: "keywords", content: "Drew Owen homepage" }
             ]}
         />
-        <div className="content">
+        <div
+            css={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                margin: "0 auto",
+                maxWidth: 960,
+                padding: "20px 1.0875rem 1.45rem"
+            }}
+        >
             <div className="nav">
                 <Link
                     activeStyle={{

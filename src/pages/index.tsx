@@ -2,7 +2,10 @@ import * as React from "react";
 import Img from "gatsby-image";
 import Layout from "../components/layout";
 import { graphql, StaticQuery } from "gatsby";
+import { css } from "@emotion/core";
 import { FaTwitterSquare, FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from "react-icons/fa";
+
+const containerStyle = css({ flex: 1, padding: 5 });
 
 export default () => (
     <StaticQuery
@@ -20,10 +23,10 @@ export default () => (
         render={data => (
             <Layout>
                 <div className="bio borderedContent">
-                    <div className="imageContainer">
+                    <div css={containerStyle}>
                         <Img className="image" fixed={data.headshot.childImageSharp.fixed} />
                     </div>
-                    <div className="bodyContainer">
+                    <div css={containerStyle}>
                         <h2>Drew Owen</h2>
                         <p>
                             I'm a Seattle based Software Engineer.
@@ -31,7 +34,7 @@ export default () => (
                             <br />I write about code, sports, esports, tech, and various
                             what-have-you's.
                         </p>
-                        <div className="social">
+                        <div css={css({ display: "flex", justifyContent: "flex-start" })}>
                             <a
                                 className="iconContainer"
                                 target="_blank"
