@@ -32,7 +32,7 @@ export default () => (
         render={data => (
             <Layout>
                 <BorderedContent
-                    css={css({
+                    styles={css({
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
