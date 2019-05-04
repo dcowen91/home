@@ -1,6 +1,7 @@
 import * as React from "react";
 import { css } from "@emotion/core";
 import Layout from "../components/layout";
+import { BorderedContent } from "../components/borderedContent";
 
 interface IProject {
     link: string;
@@ -39,17 +40,25 @@ const projects: IProject[] = [
     }
 ];
 
+const linkStyle = css({
+    textDecoration: "underline",
+    color: "#000",
+    "&:hover": {
+        color: "#e05d44"
+    }
+});
+
 const ProjectPage = () => (
     <Layout>
-        <div className="borderedContent">
+        <BorderedContent>
             <h2>Project</h2>
             <p>Here are a few things I've worked on.</p>
             <div>
                 {projects.map(projectBox)}
-                <span className="project">
+                <span>
                     For more, check out my
                     <a
-                        css={css({ paddingLeft: 8 })}
+                        css={css(linkStyle, { paddingLeft: 8 })}
                         href="https://github.com/dcowen91"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -58,15 +67,15 @@ const ProjectPage = () => (
                     </a>
                 </span>
             </div>
-        </div>
+        </BorderedContent>
     </Layout>
 );
 
 const projectBox = ({ link, title, description }: IProject) => {
     return (
         <div key={link}>
-            <div className="project">
-                <a href={link} target="_blank" rel="noopener noreferrer">
+            <div>
+                <a css={linkStyle} href={link} target="_blank" rel="noopener noreferrer">
                     {title}
                 </a>
                 <p>{description}</p>

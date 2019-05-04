@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import { IBlogPost } from "../models/IBlogPost";
 import { Pill } from "../components/pill";
 import { css } from "@emotion/core";
+import { BorderedContent } from "../components/borderedContent";
 
 interface IProps {
     allMarkdownRemark: {
@@ -35,7 +36,7 @@ export default () => (
         `}
         render={(data: IProps) => (
             <Layout>
-                <div className="borderedContent">
+                <BorderedContent>
                     <div>
                         <h2>Blog</h2>
                         <div>
@@ -44,7 +45,15 @@ export default () => (
                                 .map(({ node: post }) => (
                                     <div css={css({ marginBottom: 15 })} key={post.id}>
                                         <h4 css={css({ marginBottom: 10 })}>
-                                            <Link to={post.frontmatter.path}>
+                                            <Link
+                                                css={css({
+                                                    color: "#000",
+                                                    "&:hover": {
+                                                        color: "#e05d44"
+                                                    }
+                                                })}
+                                                to={post.frontmatter.path}
+                                            >
                                                 {post.frontmatter.title}
                                             </Link>
                                         </h4>
@@ -56,7 +65,7 @@ export default () => (
                                 ))}
                         </div>
                     </div>
-                </div>
+                </BorderedContent>
             </Layout>
         )}
     />

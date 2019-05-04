@@ -624,64 +624,7 @@ pre tt:after {
     }
 }
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    float: right;
-    padding-bottom: 15px;
-}
-
-.nav > a {
-    padding: 8px;
-    text-decoration: none;
-}
-
-.iconContainer {
-    font-size: 30px;
-    padding-right: 10px;
-    color: inherit;
-}
-
-.iconContainer:hover {
-    color: #e05d44;
-    cursor: pointer;
-}
-
-.bio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-@media (min-width: 760px) {
-    .bio {
-        width: 75%;
-        margin: auto;
-    }
-}
-
-.borderedContent {
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 10px;
-    padding: 25px;
-    border-radius: 10px;
-}
-
-.image {
-    border-radius: 50%;
-}
-
 .gatsby-image-wrapper {
     display: block !important;
     margin: auto;
-}
-
-a {
-    text-decoration: underline;
-    color: #000;
-}
-
-a:hover {
-    color: #e05d44;
 }

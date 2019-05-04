@@ -5,6 +5,7 @@ import { css } from "@emotion/core";
 import { IBlogPost } from "../models/IBlogPost";
 import Layout from "../components/layout";
 import { Pill } from "../components/pill";
+import { BorderedContent } from "../components/borderedContent";
 
 interface IProps {
     data: {
@@ -28,17 +29,17 @@ export default ({ data }: IProps) => {
 
     return (
         <Layout>
-            <div className="borderedContent">
-                <div className="blogPost">
+            <BorderedContent>
+                <div>
                     <div css={blogTitleStyle}>
                         <h2>{frontmatter.title}</h2>
                         <Pill tags={frontmatter.tags} />
                     </div>
                     <h4>{frontmatter.date}</h4>
-                    <div className="blogPostContent" dangerouslySetInnerHTML={{ __html: html }} />
+                    <div dangerouslySetInnerHTML={{ __html: html }} />
                     <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
                 </div>
-            </div>
+            </BorderedContent>
         </Layout>
     );
 };

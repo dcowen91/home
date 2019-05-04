@@ -4,8 +4,17 @@ import Layout from "../components/layout";
 import { graphql, StaticQuery } from "gatsby";
 import { css } from "@emotion/core";
 import { FaTwitterSquare, FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from "react-icons/fa";
+import { BorderedContent } from "../components/borderedContent";
 
 const containerStyle = css({ flex: 1, padding: 5 });
+const anchorStyle = css({
+    fontSize: 30,
+    paddingRight: 10,
+    color: "inherit",
+    "&:hover": {
+        color: "#eo5d44"
+    }
+});
 
 export default () => (
     <StaticQuery
@@ -22,9 +31,23 @@ export default () => (
         `}
         render={data => (
             <Layout>
-                <div className="bio borderedContent">
+                <BorderedContent
+                    css={css({
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexWrap: "wrap",
+                        "@media (min-width: 760px)": {
+                            width: "75%",
+                            margin: "auto"
+                        }
+                    })}
+                >
                     <div css={containerStyle}>
-                        <Img className="image" fixed={data.headshot.childImageSharp.fixed} />
+                        <Img
+                            css={css({ borderRadius: "50%" })}
+                            fixed={data.headshot.childImageSharp.fixed}
+                        />
                     </div>
                     <div css={containerStyle}>
                         <h2>Drew Owen</h2>
@@ -36,7 +59,7 @@ export default () => (
                         </p>
                         <div css={css({ display: "flex", justifyContent: "flex-start" })}>
                             <a
-                                className="iconContainer"
+                                css={anchorStyle}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="https://www.linkedin.com/in/drew-owen-47a6ba45/"
@@ -44,32 +67,32 @@ export default () => (
                                 <FaLinkedin />
                             </a>
                             <a
+                                css={anchorStyle}
                                 href="https://github.com/dcowen91"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="iconContainer"
                             >
                                 <FaGithubSquare />
                             </a>
                             <a
+                                css={anchorStyle}
                                 href="https://twitter.com/drewdacity"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="iconContainer"
                             >
                                 <FaTwitterSquare />
                             </a>
                             <a
+                                css={anchorStyle}
                                 href="mailto:dcowen91@gmail.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="iconContainer"
                             >
                                 <FaEnvelopeSquare />
                             </a>
                         </div>
                     </div>
-                </div>
+                </BorderedContent>
             </Layout>
         )}
     />
