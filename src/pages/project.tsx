@@ -11,6 +11,12 @@ interface IProject {
 
 const projects: IProject[] = [
     {
+        link: "https://dcowen91.github.io/nearme",
+        title: "Nearme",
+        description:
+            "A small webapp that shows wikipedia articles near you. Made with React, combines the wikipedia API and browser geolocation API."
+    },
+    {
         link: "https://github.com/dcowen91/palette-search",
         title: "Palette-search",
         description:
