@@ -12,7 +12,7 @@ const anchorStyle = css({
     paddingRight: 10,
     color: "inherit",
     "&:hover": {
-        color: "#eo5d44"
+        color: "#e05d44"
     }
 });
 
