@@ -14,7 +14,13 @@ const projects: IProject[] = [
         link: "https://dcowen91.github.io/nearme",
         title: "Nearme",
         description:
-            "A small webapp that shows wikipedia articles near you. Made with React, combines the wikipedia API and browser geolocation API."
+            "A webapp that displays wikipedia articles near you. I made this after being wanting to learn more about local landmarks while on a roadtrip! This makes it easy to find articles nearby. Made with React, combines the wikipedia API and browser geolocation API."
+    },
+    {
+        link: "https://github.com/dcowen91/essentials",
+        title: "Essentials",
+        description:
+            "A project template for web apps. This is my personalised opinionated starter kit that makes it super easy for me to create a new web app without having to spend time configuring over and over again."
     },
     {
         link: "https://github.com/dcowen91/palette-search",
