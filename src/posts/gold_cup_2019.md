@@ -1,12 +1,12 @@
 ---
 path: "/blog/gold-cup-2019"
-date: "2019-07-07"
-title: "Gold Cup Thoughts"
+date: "2019-07-13"
+title: "Gold Cup 2019: US Roster Thoughts"
 tags: ["soccer"]
 id: "8"
 ---
 
-Last week, The US Men’s National Team lost to Mexico in the Gold Cup Final. It was ultimately a meaningless game in a meaningless tournament – none of this affects World Cup qualifying at all, and the Gold Cup being played every two years doesn’t give it much prestige. Nonetheless, this tournament was a great moment in the development of this US team, and one that revealed a lot about the current roster. Coming into the tournament, the US looked pitiful. The lost a friendly to Venezuela 3-0, lost 1-0 to Jamaica before that, and didn’t show any heart or gumption in either of those defeats. The US reaching the final in the Gold Cup, normally a given, seemed out of reach for this generation, a group with a few stars but not enough talent elsewhere. However, they came together as a team and restored some credibility to a team that has looked lost at sea for years. Here are some thoughts on each of the players who played significant minutes for the US at the Gold Cup.
+Last week, The US Men’s National Soccer Team lost to Mexico in the Gold Cup Final. It was ultimately a meaningless game in a meaningless tournament. It doesn't affect World Cup qualifying at all, and the Gold Cup being played every two years doesn’t lend it much prestige. Nonetheless, this tournament was a great moment in the development of this US squad, and it revealed a lot about the roster. Coming into the tournament, the US looked pitiful. The lost a friendly to Venezuela 3-0, lost 1-0 to Jamaica before that, and didn’t show any heart in either of those defeats. The US reaching the final in the Gold Cup, normally a given, seemed out of reach for this generation. A group with a few stars but not enough talent elsewhere on the field. However, the team came together and played good football, and in the process restored some credibility to a national team that has looked lost at sea for years. Here are my thoughts on each of the players who played significant minutes for the US at the Gold Cup.
 
 ### Goalkeeper
 
