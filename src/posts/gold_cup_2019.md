@@ -6,7 +6,7 @@ tags: ["soccer"]
 id: "8"
 ---
 
-Last week, The US Men’s National Soccer Team lost to Mexico in the Gold Cup Final. It was ultimately a meaningless game in a meaningless tournament. It doesn't affect World Cup qualifying at all, and the Gold Cup being played every two years doesn’t lend it much prestige. Nonetheless, this tournament was a great moment in the development of this US squad, and it revealed a lot about the roster. Coming into the tournament, the US looked pitiful. The lost a friendly to Venezuela 3-0, lost 1-0 to Jamaica before that, and didn’t show any heart in either of those defeats. The US reaching the final in the Gold Cup, normally a given, seemed out of reach for this generation. A group with a few stars but not enough talent elsewhere on the field. However, the team came together and played good football, and in the process restored some credibility to a national team that has looked lost at sea for years. Here are my thoughts on each of the players who played significant minutes for the US at the Gold Cup.
+Last week, The US Men’s National Soccer Team lost to Mexico in the Gold Cup Final. It was ultimately a meaningless game in a meaningless tournament. It doesn't affect World Cup qualifying at all, and the Gold Cup being played every two years doesn’t lend it much prestige. Nonetheless, this tournament was a great moment in the development of this US squad, and it revealed a lot about the roster. Coming into the tournament, the US looked pitiful. They lost a friendly to Venezuela 3-0, lost 1-0 to Jamaica before that, and didn’t show any heart in either of those defeats. The US reaching the final in the Gold Cup, normally a given, seemed out of reach for this generation. A group with a few stars but not enough talent elsewhere on the field. However, the team came together and played good football, and in the process restored some credibility to a national team that has looked lost at sea for years. Here are my thoughts on each of the players who played significant minutes for the US at the Gold Cup.
 
 ### Goalkeeper
 
@@ -22,15 +22,15 @@ Nick Lima is ultimately a depth option once DeAndre Yedlin is back from injury, 
 
 #### Reggie Cannon
 
-Reggie playing at all in this tournament was unexpected, as Nick Lima seemed to have fully earned Berhalter’s trust at the RB position. One the field, Reggie exceeded expectations. He had a good first touch, a quick step to beat defenders, and played some dangerous crosses into the box. Granted, he was playing almost a free role in attack – with Tim Ream at left back tucking in into a back three in possession, Cannon didn’t have to worry about being out of position on the counter. Ultimately, Deandre Yedlin will the starter at this position when he is healthy, but it was good to see some promising moments for the future in this position.
+Reggie playing at all in this tournament was unexpected, as Nick Lima seemed to have fully earned Berhalter’s trust at the RB position. On the field, Reggie exceeded expectations. He had a good first touch, a quick step to beat defenders, and played some dangerous crosses into the box. Granted, he was playing almost a free role in attack – with Tim Ream at left back tucking in into a back three in possession, Cannon didn’t have to worry about being out of position on the counter. Ultimately, Deandre Yedlin will be the starter at this position when he is healthy, but it was good to see some promising moments for the future in this position.
 
 #### Aaron Long
 
-I was incredibly impressed by Aaron Long's performances throughout this tournament. I was less impressed by his rat-tail haircut. Maybe that's why he has it, though - if it causes a single opponent to choke on his own spit in disgust, then it is worth keeping. Long looked athletic, good in the air, and confident on the ball. He played some great long passes over the top to Altidore and Pulisic few. That kind of passing from a center back is something the US has desperately lacked for years. I know Omar Gonzales set a low bar for center backs for the US, but Aaron Long looked like an actually good center back, not just a player who is nominally better than Omar Gonzales.
+I was incredibly impressed by Aaron Long's performances throughout this tournament. I was less impressed by his rat-tail haircut. Maybe that's why he has it, though - if it causes a single opponent to choke on his own spit in disgust, then it is worth keeping. Long looked athletic, good in the air, and confident on the ball. He played some great long passes over the top to Altidore and Pulisic. That kind of passing from a center back is something the US has desperately lacked for years. I know Omar Gonzales set a low bar for center backs for the US, but Aaron Long looked like an actually good center back, not just a player who is nominally better than Omar Gonzales.
 
 #### Walker Zimmerman
 
-Zimmerman looked okay in defense, but never really stood out. Ultimately, he is competing to be the number one backup for John Brooks once Brooks is healthy again, and ZImmerman played like a replacement-level player. In contrast to Long, Zimmerman looked like a player who is only nominally better than Omar Gonzales.
+Zimmerman looked okay in defense, but never really stood out. Ultimately, he is competing to be the number one backup for John Brooks once Brooks is healthy again, and Zimmerman played like a replacement-level player. In contrast to Long, Zimmerman looked like a player who is only nominally better than Omar Gonzales.
 
 #### Matt Miazga
 
