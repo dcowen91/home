@@ -13,10 +13,10 @@ const linkStyle = css({
 export default ({ children }: React.Props<{}>) => (
     <div css={css({ background: "hsl(150, 8%, 95%)", minHeight: "100vh" })}>
         <Helmet
-            title="dcowen"
+            title="Drew Owen"
             meta={[
-                { name: "description", content: "Drew Owen hombepage" },
-                { name: "keywords", content: "Drew Owen homepage" }
+                { name: "description", content: "Drew Owen's blog and personal site" },
+                { name: "keywords", content: "Drew Owen blog" }
             ]}
         />
         <div
