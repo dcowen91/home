@@ -16,7 +16,7 @@ export default ({ children }: React.Props<{}>) => (
             title="Drew Owen"
             meta={[
                 { name: "description", content: "Drew Owen's blog and personal site" },
-                { name: "keywords", content: "Drew Owen blog" }
+                { name: "keywords", content: "Drew,Owen,blog,soccer,tottenham,csgo,cs:go" }
             ]}
         />
         <div
@@ -25,7 +25,7 @@ export default ({ children }: React.Props<{}>) => (
                 flexDirection: "column",
                 justifyContent: "center",
                 margin: "0 auto",
-                maxWidth: 960,
+                maxWidth: 900,
                 padding: "20px 1.0875rem 1.45rem"
             }}
         >
