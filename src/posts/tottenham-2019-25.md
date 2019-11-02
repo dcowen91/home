@@ -3,7 +3,7 @@ path: "/blog/tottenham-first-quarter-2019"
 
 date: "2019-11-01"
 
-title: "Tottenham after ten"
+title: "Tottenham After Ten"
 
 tags: ["soccer"]
 
@@ -22,7 +22,7 @@ Tottenham had an incredibly successful season last year, but the warning signs w
 
 Individually, the three aforementioned players have had great starts to the season. Kane has scored ten goals in all competitions, made some incredible passes, and generally appears to be firing on all cylinders whenever the team can get him involved in play. Son looks to be the most dangerous player on the field whenever he touches the ball. Lamela might be our best player so far this season and is looking the best he has in his Tottenham career. Hopefully, he can stay healthy and continue to produce.
 
-### Things that haven’t been good
+#### Things that haven’t been good
 
 • Christian Eriksen
 
