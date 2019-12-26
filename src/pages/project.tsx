@@ -11,6 +11,12 @@ interface IProject {
 
 const projects: IProject[] = [
     {
+        link: "https://dont-sleep-92c89.web.app",
+        title: "Don't sleep",
+        description:
+            "A web app to help power up your fantasy football season! A react project that uses firebase functions, firestore, and hosting. Pulls in aggregated player ranking data, then merges it with sleeper league settings and roster info to display the best available players in your league."
+    },
+    {
         link: "https://dcowen91.github.io/nearme",
         title: "Nearme",
         description:
