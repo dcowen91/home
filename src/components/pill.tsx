@@ -1,5 +1,6 @@
 import * as React from "react";
 import { css } from "@emotion/core";
+import { Link } from "gatsby";
 
 interface IPillProps {
     tags: string[];
@@ -15,5 +16,9 @@ export const Pill: React.FC<IPillProps> = (props: IPillProps) => {
         padding: "0 8px"
     });
 
-    return <div css={pillStyle}>{props.tags}</div>;
+    return (
+        <Link to={`/tags/${props.tags[0]}`}>
+            <div css={pillStyle}>{props.tags}</div>
+        </Link>
+    );
 };
