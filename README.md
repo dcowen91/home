@@ -8,8 +8,8 @@ My personal portfolio website.
 
 -   [x] Convert to gatsby v2
 -   [x] Add Typescript
--   [ ] split out components
--   [ ] convert .css to emotion
+-   [x] convert .css to emotion
+-   [x] Add tag functionality
+-   [x] split out components
 -   [ ] Refresh layout/styles
--   [ ] Add tag functionality
 -   [ ] Blog more

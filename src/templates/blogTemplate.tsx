@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import { css } from "@emotion/core";
 import { IBlogPost } from "../models/IBlogPost";
 import Layout from "../components/layout";
-import { Pill } from "../components/pill";
+import { Pills } from "../components/pill";
 import { BorderedContent } from "../components/borderedContent";
 
 interface IProps {
@@ -33,7 +33,7 @@ export default ({ data }: IProps) => {
                 <div>
                     <div css={blogTitleStyle}>
                         <h2>{frontmatter.title}</h2>
-                        <Pill tags={frontmatter.tags} />
+                        <Pills tags={frontmatter.tags} />
                     </div>
                     <h4>{frontmatter.date}</h4>
                     <div dangerouslySetInnerHTML={{ __html: html }} />

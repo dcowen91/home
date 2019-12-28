@@ -26,6 +26,7 @@ export default ({ data }: ITagProps) => (
                                     to={`/tags/${tag.fieldValue}/`}
                                     css={css({
                                         color: "#000",
+                                        textDecoration: "unset",
                                         "&:hover": {
                                             color: "#e05d44"
                                         }

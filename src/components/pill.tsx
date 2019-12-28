@@ -2,9 +2,24 @@ import * as React from "react";
 import { css } from "@emotion/core";
 import { Link } from "gatsby";
 
-interface IPillProps {
+interface IPillsProps {
     tags: string[];
 }
+
+interface IPillProps {
+    to: string;
+    label: string;
+}
+
+export const Pills = (props: IPillsProps) => {
+    return (
+        <>
+            {props.tags.map((tag, index) => (
+                <Pill to={`/tags/${tag}/`} label={tag} key={index} />
+            ))}
+        </>
+    );
+};
 
 export const Pill: React.FC<IPillProps> = (props: IPillProps) => {
     const pillStyle = css({
@@ -17,8 +32,8 @@ export const Pill: React.FC<IPillProps> = (props: IPillProps) => {
     });
 
     return (
-        <Link to={`/tags/${props.tags[0]}`}>
-            <div css={pillStyle}>{props.tags}</div>
+        <Link to={props.to} css={css({ color: "unset", textDecoration: "unset" })}>
+            <div css={pillStyle}>{props.label}</div>
         </Link>
     );
 };

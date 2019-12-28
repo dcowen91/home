@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
 import Layout from "../components/layout";
 import { IBlogPost } from "../models/IBlogPost";
-import { Pill } from "../components/pill";
+import { Pill, Pills } from "../components/pill";
 import { css } from "@emotion/core";
 import { BorderedContent } from "../components/borderedContent";
 
@@ -38,7 +38,15 @@ export default () => (
             <Layout>
                 <BorderedContent>
                     <div>
-                        <h2>Blog</h2>
+                        <div
+                            css={css({
+                                display: "flex",
+                                justifyContent: "space-between"
+                            })}
+                        >
+                            <h2>Blog</h2>
+                            <Pill to={"/tags"} label="All tags" />
+                        </div>
                         <div>
                             {data.allMarkdownRemark.edges
                                 .filter(edge => !!edge.node.frontmatter.date)
@@ -58,7 +66,7 @@ export default () => (
                                             </Link>
                                         </h4>
                                         <div css={css({ display: "flex" })}>
-                                            <Pill tags={post.frontmatter.tags} />
+                                            <Pills tags={post.frontmatter.tags} />
                                             <div>{post.frontmatter.date}</div>
                                         </div>
                                     </div>

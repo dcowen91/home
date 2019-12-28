@@ -9,8 +9,6 @@
         "target": "es6",
         "jsx": "react",
         "moduleResolution": "node",
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
         "forceConsistentCasingInFileNames": true,
         "experimentalDecorators": true,
         "typeRoots": ["src/types", "node_modules/@types"]
