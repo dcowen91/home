@@ -7,7 +7,10 @@ import "./index.css";
 const linkStyle = css({
     padding: 8,
     textDecoration: "none",
-    color: "#000"
+    color: "#000",
+    "&:hover": {
+        color: "#e05d44"
+    }
 });
 
 export default ({ children }: React.Props<{}>) => (
@@ -41,7 +44,8 @@ export default ({ children }: React.Props<{}>) => (
                 <Link
                     css={linkStyle}
                     activeStyle={{
-                        color: "#e05d44"
+                        color: "#e05d44",
+                        textDecoration: "underline"
                     }}
                     to="/"
                 >
@@ -50,7 +54,9 @@ export default ({ children }: React.Props<{}>) => (
                 <Link
                     css={linkStyle}
                     getProps={({ isPartiallyCurrent }) =>
-                        isPartiallyCurrent ? ({ style: { color: "#e05d44" } } as {}) : {}
+                        isPartiallyCurrent
+                            ? ({ style: { color: "#e05d44", textDecoration: "underline" } } as {})
+                            : {}
                     }
                     to="/blog"
                 >
@@ -59,7 +65,8 @@ export default ({ children }: React.Props<{}>) => (
                 <Link
                     css={linkStyle}
                     activeStyle={{
-                        color: "#e05d44"
+                        color: "#e05d44",
+                        textDecoration: "underline"
                     }}
                     to="/project"
                 >

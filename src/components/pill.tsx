@@ -28,7 +28,11 @@ export const Pill: React.FC<IPillProps> = (props: IPillProps) => {
         backgroundColor: "hsl(150, 8%, 95%)",
         borderRadius: 100,
         marginRight: 10,
-        padding: "0 8px"
+        padding: "0 8px",
+        "&:hover": {
+            color: "#e05d44",
+            border: "2px solid #e05d44"
+        }
     });
 
     return (
