@@ -22,8 +22,13 @@ module.exports = {
         },
         `gatsby-plugin-emotion`,
         `gatsby-plugin-remove-trailing-slashes`,
-        `gatsby-transformer-remark`,
-        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-sharp`,
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [{ resolve: `gatsby-remark-images`, options: { maxWidth: 590 } }]
+            }
+        },
         {
             resolve: `gatsby-plugin-typescript`,
             options: {
