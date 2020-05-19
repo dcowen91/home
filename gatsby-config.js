@@ -26,7 +26,15 @@ module.exports = {
         {
             resolve: `gatsby-transformer-remark`,
             options: {
-                plugins: [{ resolve: `gatsby-remark-images`, options: { maxWidth: 590 } }]
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            maxWidth: 300,
+                            wrapperStyle: `display: flex; margin: auto;max-width: 300px;`
+                        }
+                    }
+                ]
             }
         },
         {
