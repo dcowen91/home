@@ -27,10 +27,14 @@ export default ({ data }: IProps) => {
         justifyContent: "space-between"
     });
 
+    const blogContainerStyle = css({
+        img: { width: "300px", display: "flex", margin: "auto" }
+    });
+
     return (
         <Layout>
             <BorderedContent>
-                <div>
+                <div css={blogContainerStyle}>
                     <div css={blogTitleStyle}>
                         <h2>{frontmatter.title}</h2>
                         <Pills tags={frontmatter.tags} />
