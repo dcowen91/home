@@ -14,7 +14,7 @@ const projects: IProject[] = [
         link: "https://minitables.now.sh",
         title: "Minitables",
         description:
-            "A simple web app that lets you build a custom mini league table for the Premier League. Build in React using the wikipedia API."
+            "A simple web app that lets you build a custom mini league table for the Premier League. Built in React using the wikipedia API."
     },
     {
         link: "https://dont-sleep-92c89.web.app",
