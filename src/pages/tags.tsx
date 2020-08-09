@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/layout";
-import { css } from "@emotion/core";
 import { BorderedContent } from "../components/borderedContent";
+import { Pill } from "../components/pill";
 
 interface ITagProps {
     data: {
@@ -22,18 +22,10 @@ export default ({ data }: ITagProps) => (
                     <ul>
                         {data.allMarkdownRemark.group.map(tag => (
                             <li key={tag.fieldValue}>
-                                <Link
+                                <Pill
                                     to={`/tags/${tag.fieldValue}/`}
-                                    css={css({
-                                        color: "#000",
-                                        textDecoration: "unset",
-                                        "&:hover": {
-                                            color: "#e05d44"
-                                        }
-                                    })}
-                                >
-                                    {tag.fieldValue} ({tag.totalCount})
-                                </Link>
+                                    label={`${tag.fieldValue} (${tag.totalCount} posts)`}
+                                />
                             </li>
                         ))}
                     </ul>
